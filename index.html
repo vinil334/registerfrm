@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <H1 style="color: rgb(238, 177, 143);"><center><b>Student Information</b></center></H1> <br>
+    <form method="get">
+      <center>
+        <label>Name: </label> 
+          <input type="text" id="name" name="name"/> <br>  <br> 
+        <label for="address">Address:</label>
+          <textarea id="address" name="address"></textarea> <br> <br>
+        <label for="email">Email: </label>  
+          <input type="email" id="email" name="email"/> <br> <br>
+        <label for="gender">Gender: </label>  
+          <input type="radio" id="gender" name="gender" value="male" />Male  
+          <input type="radio" id="gender" name="gender" value="female"/>Female 
+          <input type="radio" id="gender" name="gender" value="others"/>Others <br> <br>
+        <label for="dept">Department: </label>
+          <input list="dept" name="browser" id="browser">
+          <datalist id="dept">
+            <option value="CSE">
+            <option value="ECE">
+            <option value="IT">
+          </datalist> <br><br>
+        <label for="hobbies">Hobbies:</label>
+          <textarea id="hobbies" name="hobbies"></textarea> <br> <br>
+        <label for="aoi">Area of Interest : </label> 
+          <select name="aoi" id="aoi">
+            <option>Web developing</option>
+            <option>python games</option>
+            <option>cyber security</option>
+            <option>Cloud Computing</option>
+            <option>Ethical hacking</option>
+          </select> <br><br>
+        <input type="submit" value="Submit">
+        </center>
+    </form>
+
+</body>
+</html>
